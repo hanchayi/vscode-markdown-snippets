@@ -4,7 +4,7 @@ Snippets for .md and .mdx
 
 ## Requirements
 
-If you want use these snippets, you must add settings in you `.vscode/setting.json`
+If you want use these snippets, you must add settings in you `.vscode/settings.json`
 
 ``` json
 {
@@ -13,7 +13,7 @@ If you want use these snippets, you must add settings in you `.vscode/setting.js
       "other": true,
       "comments": false,
       "strings": true
-    },
+    }
   }
 }
 ```
