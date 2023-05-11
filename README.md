@@ -1,4 +1,4 @@
-# markdown-snippets README
+# Markdown Easy
 
 Snippets for .md and .mdx
 
