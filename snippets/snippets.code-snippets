@@ -1,0 +1,96 @@
+{
+  "table": {
+    "prefix": "table",
+    "body": [
+      "| Syntax      | Description |",
+      "| ----------- | ----------- |",
+      "| Header      | Title       |",
+      "| Paragraph   | Text        |",
+    ],
+  },
+  "image": {
+    "prefix": [ "img", "image" ],
+    "body": [
+      "![image](https://www.baidu.com)",
+    ],
+  },
+  "url": {
+    "prefix": [ "a", "url" ],
+    "body": [
+      "[image](https://www.baidu.com)",
+    ],
+  },
+  "todo": {
+    "prefix": [ "todo" ],
+    "body": [
+      "- [x] Write the press release",
+      "- [ ] Update the website",
+    ],
+  },
+  "latex": {
+    "prefix": [ "latex" ],
+    "body": [
+      "\\$x^2 + x_k\\$",
+    ],
+  },
+  "class diagram": {
+    "prefix": [ "class diagram" ],
+    "body": [
+      "```mermaid",
+      "---",
+      "title: Animal example",
+      "---",
+      "classDiagram",
+      "    note \"From Duck till Zebra\"",
+      "    Animal <|-- Duck",
+      "    note for Duck \"can fly",
+      "can swim",
+      "can dive",
+      "can help in debugging\"",
+      "    Animal <|-- Fish",
+      "    Animal <|-- Zebra",
+      "    Animal : +int age",
+      "    Animal : +String gender",
+      "    Animal: +isMammal()",
+      "    Animal: +mate()",
+      "    class Duck{",
+      "        +String beakColor",
+      "        +swim()",
+      "        +quack()",
+      "    }",
+      "    class Fish{",
+      "        -int sizeInFeet",
+      "        -canEat()",
+      "    }",
+      "    class Zebra{",
+      "        +bool is_wild",
+      "        +run()",
+      "    }",
+      "```"
+    ],
+  },
+  "flowchart": {
+    "prefix": [ "flowchart" ],
+    "body": [
+      "```mermaid",
+      "flowchart TD",
+      "    A[Start] --> B{Is it?}",
+      "    B -- Yes --> C[OK]",
+      "    C --> D[Rethink]",
+      "    D --> B",
+      "    B -- No ----> E[End]",
+      "```"
+    ],
+  },
+  "sequence diagram": {
+    "prefix": [ "sequence diagram" ],
+    "body": [
+      "```mermaid",
+      "sequenceDiagram",
+      "    Alice->>John: Hello John, how are you?",
+      "    John-->>Alice: Great!",
+      "    Alice-)John: See you later!",
+      "```"
+    ],
+  },
+}

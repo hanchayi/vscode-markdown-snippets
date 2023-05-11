@@ -1,0 +1,24 @@
+{
+  "name": "markdown-snippets",
+  "displayName": "Markdown Snippets",
+  "description": "snippets for markdwon and mermaid",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "mdx",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
