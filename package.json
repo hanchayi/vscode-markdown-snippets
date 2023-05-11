@@ -1,12 +1,12 @@
 {
-  "name": "markdown-snippets",
-  "displayName": "Markdown Snippets",
+  "name": "markdown-easy",
+  "displayName": "Markdown Easy",
   "description": "snippets for markdwon and mermaid",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
   },
-  "repository": "https://github.com/hanchayi/vscode-markdown-snippets",
+  "repository": "https://github.com/hanchayi/vscode-markdown-easy",
   "publisher": "zhangyi",
   "categories": [
     "Snippets"
