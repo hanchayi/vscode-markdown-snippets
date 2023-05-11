@@ -6,6 +6,8 @@
   "engines": {
     "vscode": "^1.78.0"
   },
+  "repository": "https://github.com/hanchayi/vscode-markdown-snippets",
+  "publisher": "zhangyi",
   "categories": [
     "Snippets"
   ],
