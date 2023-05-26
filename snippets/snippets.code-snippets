@@ -1,11 +1,20 @@
 {
+  "header": {
+    "prefix": "header",
+    "body": [
+      "---",
+      "title: page title",
+      "description: page desc",
+      "---"
+     ]
+  },
   "table": {
     "prefix": "table",
     "body": [
-      "| Syntax      | Description |",
+      "| Name      | Description |",
       "| ----------- | ----------- |",
-      "| Header      | Title       |",
-      "| Paragraph   | Text        |",
+      "| Name1      | Title       |",
+      "| Name2   | Text        |",
     ],
   },
   "image": {

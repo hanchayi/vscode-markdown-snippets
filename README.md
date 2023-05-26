@@ -2,6 +2,10 @@
 
 Snippets for .md and .mdx
 
+## Effect
+
+![effect](./effect.gif)
+
 ## Requirements
 
 If you want use these snippets, you must add settings in you `.vscode/settings.json`
@@ -18,8 +22,10 @@ If you want use these snippets, you must add settings in you `.vscode/settings.j
 }
 ```
 
+
 ## Features
 
+- header
 - table
 - image
 - url
