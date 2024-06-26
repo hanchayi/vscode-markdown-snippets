@@ -1,7 +1,7 @@
 {
   "name": "markdown-easy",
   "displayName": "Markdown Easy",
-  "description": "snippets for markdwon and mermaid",
+  "description": "snippets for markdown and mermaid",
   "version": "0.0.3",
   "engines": {
     "vscode": "^1.78.0"
